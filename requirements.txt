@@ -9,18 +9,6 @@ psycopg2
 
 # Environment Setup
 
-## macOS Terminal Commands
-```bash
-# Install Homebrew if not installed
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Install Python (if not installed)
-brew install python
-
-# Install pip (Python package installer)
-sudo easy_install pip
-```
-
 ## Windows Command Prompt Commands
 ```cmd
 :: Install Python from the official website if not installed.
@@ -77,4 +65,5 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 1. **Environment Setup:** Install Homebrew (macOS) or Python (Windows).
 2. **Kaggle API Setup:** Generate API token and configure kaggle.json.
 3. **Download Datasets:** Use Kaggle API commands to download datasets and unzip them.
+
 4. **Install Libraries:** Use pip to install required libraries for data analysis.
